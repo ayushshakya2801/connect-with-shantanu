@@ -1,14 +1,12 @@
 import { BorderBeam } from "./components/magicui/border-beam.tsx";
 import './App.css'
+import Callsection from "./components/callsection/Callsection.tsx";
 
 function App() {
 
   return (
-    <div className="relative h-[200px] w-[200px] rounded-xl bg-slate-600">
-      <p>Hello</p>
-    <BorderBeam />
-    <p>World</p>
-  </div>
+    <Callsection/>
+    
   )
 }
 
